@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="com.toluhta.immersify"
+version="0.1.0">
+    
+    <js-module src="www/ImmersiveModePlugin.js" name="Immersify">
+        <clobbers target="Immersify" />
+    </js-module>
+    
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Immersify">
+                <param name="android-package" value="com.toluhta.immersify.ImmersiveMode"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/ImmersiveMode.java" target-dir="src/com/toluhta/immersify" /> 
+    </platform>
+</plugin>
