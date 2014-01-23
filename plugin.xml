@@ -5,6 +5,14 @@ id="com.toluhta.immersify"
 version="0.1.0">
 
     <name>Immersify</name>
+    <description>Plugin to enable Immersive (full screen) mode on Android Kitkat</description>
+    <keywords>Immersive mode,Sticky immersive mode,full screen</keywords>
+    <author>toluhta @ Github/Twitter</author>
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=3.3.0"/>
+    </engines>
 
     <js-module src="www/ImmersiveModePlugin.js" name="Immersify">
         <clobbers target="Immersify" />
