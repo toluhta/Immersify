@@ -3,6 +3,8 @@ Immersify
 
 Plugin for Apache Cordova 3.3 to enable Immersive mode on Android Kitkat
 
+More information about Immersive mode can be found from https://developer.android.com/training/system-ui/immersive.html
+
 Installation
 =========
 
