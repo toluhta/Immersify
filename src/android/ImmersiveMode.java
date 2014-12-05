@@ -36,6 +36,7 @@ public class ImmersiveMode extends CordovaPlugin {
                                             | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                                             | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                                             | View.SYSTEM_UI_FLAG_FULLSCREEN
+                                            | View.SYSTEM_UI_FLAG_IMMERSIVE
                                             | View.INVISIBLE);
 
                     if (action.equals(ACTION_ENABLE_IMMERSIVE_STICKY)) {
