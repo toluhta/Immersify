@@ -8,7 +8,7 @@ More information about Immersive mode can be found from https://developer.androi
 Installation
 =========
 
-cordova plugin add https://github.com/toluhta/Immersify.git
+cordova plugin add https://github.com/agamemnus/Immersify.git
 
 Usage
 =========
